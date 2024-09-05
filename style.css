@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;1,500&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  
+}
+body{
+  background-color: rgba(5, 5, 5, 0.889);
+  width: 100%;
+}
+.calculator{
+  background-color: rgba(57, 25, 146, 0.264);
+  max-width: 650px;
+  height: 600px;
+  margin: 0px auto ;
+  padding: 20px;
+  margin-top: 50px;
+}
+#result{
+  width: 100%;
+  padding: 10px;
+  color: 20px;
+  border: none;
+  outline: none;
+  font-size: 60px;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4) inset;
+}
+.btns{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 8px;
+  border-radius: 5px;
+  margin: 5px auto;
+  margin-top: 25px;
+  pad: 5px;
+  
+}
+button{
+  padding: 15px;
+  font-size: 30px;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+  border-radius: 4px;
+}
+button:hover{
+  background-color: rgb(121, 116, 110);
+  color :white;
+  transition: background-color 0.3s ease;
+}
+.clear{
+  background-color: crimson;
+  color: aliceblue;
+  font-weight: bold;
+}
+.operator{
+  background-color:rgba(58, 195, 161, 0.975);
+  color: rgb(255, 255, 255);
+}
+.equal{
+  background-color: rgb(216, 123, 9);
+  grid-row: span 3;
+  color: antiquewhite;
+}
